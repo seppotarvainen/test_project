@@ -1,6 +1,8 @@
 
+from test_project_sub.galaxy import Galaxy
+
 def main():
-    print("hello from galaxy ...")
+    print(Galaxy.greet("Seppo"))
 
 if __name__ == '__main__':
     main()
